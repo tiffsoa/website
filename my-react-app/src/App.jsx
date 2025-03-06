@@ -1,14 +1,14 @@
-import Card from "./Card.jsx"
-import Button from "./Button.jsx"
-import Student from "./Student.jsx"
+import Card from "./Card.jsx";
+import Button from "./Button.jsx";
+import Student from "./Student.jsx";
+import UserGreeting from "./UserGreeting.jsx";
 
 function App() {
-  return(
+  return (
     <>
-    
+      <UserGreeting isLoggedIn={true} username="Tiff"/>
     </>
   );
 }
-
 
 export default App;
