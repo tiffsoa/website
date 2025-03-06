@@ -1,3 +1,6 @@
+import defaultProps from 'default-props'
+import PropTypes from 'prop-types';
+
 function UserGreeting(props) {
 
     const welcomeMessage = <h2 className="welcome-message">Welcome {props.username}</h2>;
