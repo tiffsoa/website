@@ -27,3 +27,13 @@
   color: rgba(41, 40, 40, 0.568);
 }
 
+.student {
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid rgb(163, 153, 153);
+}
+
+.student > p {
+  margin: 0;
+}
