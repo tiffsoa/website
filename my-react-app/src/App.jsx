@@ -6,11 +6,12 @@ import List from "./List.jsx";
 import ProfilePicture from "./ProfilePicture.jsx";
 import MyComponent from "./MyComponent.jsx";
 import Counter from "./counter.jsx";
+import ColorPicker from './ColorPicker.jsx';
 
 function App() {
   return (
     <>
-    <MyComponent/>
+    <ColorPicker />
     </>
   );
 }
